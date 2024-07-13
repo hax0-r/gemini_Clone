@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: gemini;
+  src: url(./assets/HelveticaNeueRoman.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: gemini;
+  scroll-behavior: smooth;
+}
+
+
+:root {
+  --black-color: #1e1c1c;
+  --white-color: #f7f7f7;
+}
+
+/* #root {
+  animation: fadeIn 1.5s;
+} */
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes spinItem {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
